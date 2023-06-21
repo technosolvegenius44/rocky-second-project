@@ -1,0 +1,522 @@
+@font-face {
+	src: url('fonts/Raleway-Bold.ttf');
+	font-family: raleway;
+}
+
+@font-face {
+	src: url('fonts/Raleway-ExtraBold.ttf');
+	font-family: raleway-heavy;
+}
+
+
+@font-face {
+	src: url('fonts/Roboto-Bold.ttf');
+	font-family: roboto-bold;
+}
+
+@font-face {
+	src: url('fonts/Roboto-Medium.ttf');
+	font-family: roboto-medium;
+}
+
+@font-face {
+	src: url('fonts/Roboto-Regular.ttf');
+	font-family: roboto-regular;
+}
+
+h1 {
+	font-family: raleway;
+}
+
+h3 {
+    font-family: raleway;
+}
+
+h5 {
+	font-family: roboto-bold;
+}
+h6 {
+	font-family: roboto-medium;
+}
+
+p {
+	font-family: roboto-regular;
+}
+
+/* font-family ended */
+
+.head-section {
+	background-image: url('img/skyseen.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 670px;
+}
+
+
+ul {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+
+.menu-font ul li a {
+	text-transform: capitalize;
+	color: floralwhite;
+	transition: 0.7s;
+} 
+.menu-font ul li {
+	position: relative;
+}
+
+.menu-font ul li:hover a {
+	background-color: ghostwhite;
+	opacity: 0.5;
+	color: navy;
+}
+/* main menu end */
+
+.menu-font ul ul {
+	position: absolute;
+	display: none;
+	
+}
+
+.menu-font ul li ul li {
+	display: block;
+	width: 100px;
+}
+
+.menu-font ul li:hover > ul {
+	display: block;
+    background-color: lightblue;
+    opacity: 0.7;
+}
+
+.menu-font ul li ul li a {
+	transition: 1s;
+}
+
+.menu-font ul li ul li:hover a {
+	background-color: silver;
+	color: black;
+	opacity: 0.8;
+}
+
+/* sub menu end */
+
+.menu-font ul ul ul {
+	position: absolute;
+	left: 100%;
+	top: 0;
+}
+
+.menu-font ul li ul li ul li:hover a {
+	background-color: blue;
+	color: white;
+}
+
+
+
+
+
+.paul-kin h1 {
+	text-transform: capitalize;
+}
+
+.one {
+	width: 38%;
+	border: 2px solid blanchedalmond;
+}
+
+/* header section end */
+
+.paul-lapkin {
+	background-color: #F0F0F0;
+}
+
+.human-paul {
+	background-image: url('img/human2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	padding: 20px 10px;
+	height: 650px;
+}
+
+.human-paul h6 {
+	text-transform: capitalize;
+	font-size: 20px;
+	color: grey;
+	margin-left: 300px;
+	margin-top: 125px;
+}
+
+.human-text {
+	background-color: #FFFFFF;
+	text-transform: capitalize;
+	margin-top: 115px;
+	margin-left: 50px;
+	padding: 30px 20px;
+	line-height: 27px;
+	font-weight: light;
+}
+
+.human-text h5 {
+	padding-bottom: 20px;
+	padding-left: 7px;
+}
+
+
+.human-text p {
+	padding: 4px 6px;
+	font-size: 15px;
+}
+
+
+.human-text button {
+	text-transform: capitalize;
+	color: white;
+	background-color: #FF2B4A;
+	padding: 4px 65px;
+	margin-top: 15px;
+	border: none;	
+}
+
+/* lapkin paul end */
+
+.working-exp {
+	background-image: url('img/cyclone.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 610px;
+}
+
+
+.work-head {
+	margin-top: 75px;
+	text-align: center;
+}
+
+
+.work-head h3 {
+	font-size: 35px;
+	letter-spacing: 1px;
+}
+
+.work-head p {
+	text-transform: capitalize;
+	font-size: 16px;
+	letter-spacing: .5px;
+	padding: 10px 0;
+}
+
+.info {
+	background-image: url('img/earth2.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 180px;
+}
+
+.perple {
+	background-image: url('img/stone.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 180px;
+}
+
+.navy {
+	background-image: url('img/foggyview.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 180px;
+}
+
+.red {
+	background-image: url('img/cloudview.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 180px;
+}
+
+/* working section end */
+.education-work {
+	background-image: url('img/earth3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 660px;
+}
+
+.educate-row {
+	align-items: center;
+	color: ghostwhite;
+} 
+
+.first-coll {
+    background-color: #424E9A;
+    padding: 20px 30px;
+    opacity: 0.6;
+}
+
+.first-coll h3 {
+	font-size: 23px;
+	text-transform: uppercase;
+	padding: 16px 0;
+}
+
+.second-coll {
+    background-color: #424E9A;
+     padding: 20px 30px;
+     opacity: 0.6;
+}
+
+
+.second-coll h3 {
+	font-size: 23px;
+	text-transform: uppercase;
+	padding: 16px 0;
+}
+/* education work end */
+
+.latest-work {
+	background-image: url('img/littlegril.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 680px;
+}
+
+.abc {
+	background-image: url('img/earth4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 210px;
+	opacity: 0.6;
+}
+
+.abcd {
+	background-image: url('img/earth-blk.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 210px;
+	opacity: 0.6;
+}
+
+.abd {
+    background-image: url('img/earth7.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 210px;
+	opacity: 0.6;
+}
+
+.adb {
+   background-image: url('img/earth8.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 210px;
+	opacity: 0.6;
+}
+/* fist row end */
+
+
+.abcc {
+    background-image: url('img/earth-daynight.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 210px;
+	opacity: 0.6;
+}
+
+.abdd {
+    background-image: url('img/earth1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 210px;
+	opacity: 0.6;
+}
+
+.adbb {
+    background-image: url('img/earth-fire.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 210px;
+	opacity: 0.6;
+}
+
+/* letest section end */
+
+.crop-sec {
+	background-image: url('img/earth7.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 660px;
+	
+}
+
+/* crop sec end */
+
+.address-sec {
+	background-image: url('img/global.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 660px;
+}
+
+.table-div {
+	padding: 20px;
+	background-color: #4E637D;
+	text-transform: capitalize;
+	margin: auto;
+}
+
+.table-div label ,
+.table-div textaera ,
+.table-div button ,
+.table-div input[type="submit"]
+{
+	display: block;
+	padding-top: 6px;
+	padding-left: 5px;
+	color: white;
+}
+
+.table-div input[type="text"],
+.table-div input[type="email"],
+.table-div input[type="password"]
+
+ {
+ 	width: 100%;
+ 	text-transform: capitalize;
+ 	padding: 2.5px 15px;
+ 	border-radius: 5px;
+ 	outline-color: none;
+
+ }
+
+.table-div input[type="submit"]
+{
+	margin: 5px 0;
+	background-color: hotpink;
+	text-transform: capitalize;
+	padding: 5px 20px;
+}
+
+.table-div button {
+	margin-left: 230px;
+	color: white;
+	text-transform: capitalize;
+	background-color: #FF2B4A;
+	padding: 6px 40px;
+	outline: none;
+}
+
+/* table end */
+.address {
+	width: 430px;
+	height: 175px;
+	background-color: #4E637D;
+	margin-top: 14px;
+	color: white;
+	
+	padding: 30px 20px;
+}
+
+.address h3 {
+	text-transform: uppercase;
+	font-size: 23px;
+	letter-spacing: 1px;
+}
+
+.address p {
+	text-transform: capitalize;
+	font-size: 14px;
+	margin-top: 15px;
+
+}
+
+.phone {
+	width: 430px;
+	height: 175px;
+	background-color: #4E637D;
+	color: white;
+	padding: 30px 20px;
+	margin: 15px 0;
+	
+}
+
+.phone h3 {
+	text-transform: uppercase;
+	font-size: 23px;
+	letter-spacing: 1px;
+}
+
+.phone p {
+	text-transform: capitalize;
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.web {
+	width: 430px;
+	height: 175px;
+	background-color: #4E637D;
+	color: white;
+	padding: 30px 20px;
+	margin: 15px 0;
+	
+}
+
+.web h3 {
+	text-transform: uppercase;
+	font-size: 23px;
+	letter-spacing: 1px;
+}
+
+.web p {
+	text-transform: capitalize;
+	font-size: 14px;
+	margin-top: 15px;
+}
+/* address section end */
+
+.footer-sec {
+	background-image: url('img/eart-circle.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 150px;
+	
+}
+.icon {
+	font-size: 20px;
+	color: blanchedalmond;
+}
+
+.icon a {
+	padding: 10px 5px;
+	color: grey;
+}
+
